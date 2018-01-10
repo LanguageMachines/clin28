@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{nopageno}
+\usepackage[utf8]{inputenc}
+
+\usepackage{pdflscape}
+
+\title{CLIN28 booklet}
+
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{makecell}
+
+\usepackage{array}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{pgfplotstable,filecontents}
+\pgfplotsset{compat=1.9}
+
+\newlength{\MyCellWidth}
+\setlength{\MyCellWidth}{4cm}   % Saving fboxsep into mylength
+
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\geometry{textheight=750pt}
+\setlength{\parindent}{0pt}
+
+\usepackage{changepage}
+
+\newcommand{\titloc}[2]{\begin{tabular}[t]{@{}p{\MyCellWidth}@{}}\textbf{#1}\\{}#2\end{tabular}}
+\newcommand{\titaut}[2]{\begin{tabular}[t]{@{}p{\MyCellWidth}@{}}\textbf{#1} \\{}#2\end{tabular}}
+\newcommand{\titautf}[2]{\hspace*{-0.1cm}\textit{#1}\begin{adjustwidth}{2cm}{}#2\end{adjustwidth}\leavevmode}
+
+
+\usepackage{datatool}
+\DTLsetseparator{;}
+
+\DTLloaddb{posters}{posters.csv}
+\DTLloaddb{presentations}{presentations.csv}
+
+\begin{document}
+
+											\input{titlepage}
+\newpage	\input{copyright}	\newpage	\input{preface}
+\newpage	\input{support}		\newpage	\input{sponsors}
+\newpage						\newpage	\input{programme}
+
+\end{document}
