@@ -1,0 +1,14 @@
+\subsection{Committees}
+
+\subsubsection{Organising Committee}
+
+\subsubsection{Support}
+
+
+
+\subsection{Past, Present, and Future CLIN meetings}
+\pgfplotstabletypeset[col sep=semicolon,
+     columns={Year,Date,Host},columns/Year/.style={string type},
+    columns/Date/.style={string type,column type=l},
+    columns/Host/.style={string type,column type=l},
+    ]{clins.csv}

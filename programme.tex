@@ -1,0 +1,46 @@
+\hspace{0pt}
+\vspace{\fill}
+\begin{center}
+Programme
+\end{center}
+\vspace{\fill}
+\hspace{0pt}
+
+\newpage
+
+\begin{landscape}
+\pgfplotstabletypeset[begin table=\begin{longtable},
+end table=\end{longtable},col sep=semicolon,
+     columns={Time,S1,S2,S3,S4,S5},columns/Time/.style={string type,column type=p{2cm}},
+    columns/S1/.style={string type,column type=p{2cm}},
+    columns/S2/.style={string type,column type=p{2cm}},
+    columns/S3/.style={string type,column type=p{2cm}},
+    columns/S4/.style={string type,column type=p{2cm}},
+    columns/S5/.style={string type,column type=p{2cm}},
+    ]{schedule.csv}
+\end{landscape}
+
+\newpage
+
+\subsection{Keynote}
+
+\subsection{Oral presentations}
+
+\DTLsort{Title=ascending}{presentations}
+\DTLforeach*%
+{presentations}% database label
+{\name=Title,\points=Authors}% assignment
+{% Stuff to do at each iteration:
+\titautf{\name}{\points}
+}
+
+\subsection{Posters}
+
+\DTLsort{Title=ascending}{posters}
+\DTLforeach*%
+{posters}% database label
+{\name=Title,\points=Authors}% assignment
+{% Stuff to do at each iteration:
+\titautf{\name}{\points}
+}
+
