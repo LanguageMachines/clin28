@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  10 JAN 2018 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  12 JAN 2018 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,6 +1045,9 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count128
 \cp@tempcnt=\count129
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/datatool/datatool.sty
 Package: datatool 2016/01/18 v2.25 (NLCT)
 
@@ -1059,9 +1062,6 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count130
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
@@ -1239,42 +1239,75 @@ Package: fp-eval 1995/04/03
 \dtlkeys@presentations=\toks68
 \dtlrows@presentations=\count178
 \dtlcols@presentations=\count179
- (./main.aux)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count180
+\calc@Bcount=\count181
+\calc@Adimen=\dimen199
+\calc@Bdimen=\dimen256
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count182
+\calc@Cskip=\skip56
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen257
+\AM@pageheight=\dimen258
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box44
+\AM@toc@title=\toks69
+\c@AM@survey=\count183
+\AM@templatesizebox=\box45
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 53.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
-\scratchdimen=\dimen199
-\scratchbox=\box44
-\nofMPsegments=\count181
-\nofMParguments=\count182
-\everyMPshowfont=\toks69
-\MPscratchCnt=\count183
-\MPscratchDim=\dimen256
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
-\everyMPtoPDFconversion=\toks70
+\scratchcounter=\count184
+\scratchdimen=\dimen259
+\scratchbox=\box46
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen260
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks71
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1357,674 +1390,757 @@ enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./titlepage.tex) [1
+\AtBeginShipoutBox=\box47
+<front.pdf, id=4, 1223.57124pt x 874.26619pt>
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf>
+Package pdftex.def Info: front.pdf used on input line 55.
+(pdftex.def)             Requested size: 1223.56827pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf>
+Package pdftex.def Info: front.pdf used on input line 55.
+(pdftex.def)             Requested size: 1223.56827pt x 874.26405pt.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./copy
-right.tex) [2] (./preface.tex) [3] (./support.tex
+<front.pdf, id=7, page=1, 1223.57124pt x 874.26619pt>
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 611.83553pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+
+<use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 611.83553pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 611.83553pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 611.83553pt x 874.26405pt.
+
+[1
+
+ <./front.pdf>] (./titlepage.tex) [2{/usr/local/texlive/2015/texmf-var/fonts/ma
+p/pdftex/updmap/pdftex.map}] (./copyright.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+) [3] (./preface.tex) [4] (./support.tex
 PGFPlots: reading {clins.csv}
-) [4]
-(./sponsors.tex <int-logo.png, id=25, 293.898pt x 155.6214pt>
+) [5] (./sponsors.tex
+<int-logo.png, id=61, 293.898pt x 155.6214pt>
 File: int-logo.png Graphic file (type png)
-
-<use int-logo.png>
+ <use int-logo.png>
 Package pdftex.def Info: int-logo.png used on input line 5.
 (pdftex.def)             Requested size: 325.215pt x 172.217pt.
- <LI_logo_RGB_tag.png, id=27, 506.89375pt x 106.3975pt>
+
+<LI_logo_RGB_tag.png, id=63, 506.89375pt x 106.3975pt>
 File: LI_logo_RGB_tag.png Graphic file (type png)
 
 <use LI_logo_RGB_tag.png>
 Package pdftex.def Info: LI_logo_RGB_tag.png used on input line 10.
 (pdftex.def)             Requested size: 195.12767pt x 40.95747pt.
 
-<textkernel-tagline.png, id=28, 747.79375pt x 200.75pt>
+<textkernel-tagline.png, id=64, 747.79375pt x 200.75pt>
 File: textkernel-tagline.png Graphic file (type png)
 
 <use textkernel-tagline.png>
 Package pdftex.def Info: textkernel-tagline.png used on input line 11.
 (pdftex.def)             Requested size: 195.12767pt x 52.38368pt.
 
-<logo_beeld_geluid.png, id=29, 722.7pt x 206.4513pt>
+<logo_beeld_geluid.png, id=65, 722.7pt x 206.4513pt>
 File: logo_beeld_geluid.png Graphic file (type png)
 
 <use logo_beeld_geluid.png>
 Package pdftex.def Info: logo_beeld_geluid.png used on input line 16.
 (pdftex.def)             Requested size: 130.08731pt x 37.15962pt.
- <logo_NOTaS.png, id=30, 577.40718pt x 207.77625pt>
+ <logo_NOTaS.png, id=66, 577.40718pt x 207.77625pt>
 File: logo_NOTaS.png Graphic file (type png)
 
 <use logo_NOTaS.png>
 Package pdftex.def Info: logo_NOTaS.png used on input line 17.
 (pdftex.def)             Requested size: 130.08731pt x 46.81104pt.
- <logo_clariah.png, id=31, 301.125pt x 83.31125pt>
+ <logo_clariah.png, id=67, 301.125pt x 83.31125pt>
 File: logo_clariah.png Graphic file (type png)
 
 <use logo_clariah.png>
 Package pdftex.def Info: logo_clariah.png used on input line 18.
 (pdftex.def)             Requested size: 130.08731pt x 35.9922pt.
- <siks-logo.jpeg, id=32, 192.72pt x 76.285pt>
+ <siks-logo.jpeg, id=68, 192.72pt x 76.285pt>
 File: siks-logo.jpeg Graphic file (type jpg)
 
 <use siks-logo.jpeg>
 Package pdftex.def Info: siks-logo.jpeg used on input line 19.
 (pdftex.def)             Requested size: 130.08731pt x 51.49246pt.
- <textgainlogo.jpg, id=33, 150.5625pt x 44.41594pt>
+ <textgainlogo.jpg, id=69, 150.5625pt x 44.41594pt>
 File: textgainlogo.jpg Graphic file (type jpg)
 
 <use textgainlogo.jpg>
 Package pdftex.def Info: textgainlogo.jpg used on input line 20.
 (pdftex.def)             Requested size: 130.08731pt x 38.37926pt.
- <logoAG_XL.jpg, id=34, 1634.105pt x 489.83pt>
+ <logoAG_XL.jpg, id=70, 1634.105pt x 489.83pt>
 File: logoAG_XL.jpg Graphic file (type jpg)
 
 <use logoAG_XL.jpg>
 Package pdftex.def Info: logoAG_XL.jpg used on input line 21.
 (pdftex.def)             Requested size: 130.08731pt x 38.99286pt.
-) [5 <./int-logo.png> <./LI_logo_RGB_tag.png> <./textkernel-tagline.png> <./log
+) [6 <./int-logo.png> <./LI_logo_RGB_tag.png> <./textkernel-tagline.png> <./log
 o_beeld_geluid.png> <./logo_NOTaS.png> <./logo_clariah.png> <./siks-logo.jpeg> 
 <./textgainlogo.jpg> <./logoAG_XL.jpg>] (./programme.tex
-[6]
+[7]
 PGFPlots: reading {schedule.csv}
 
-Overfull \hbox (5.50917pt too wide) in paragraph at lines 34--34
+Overfull \hbox (5.50917pt too wide) in paragraph at lines 36--36
 []|[]| 
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 34--34
+Underfull \hbox (badness 7064) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Emotion and Sen-ti-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 34--34
+Underfull \hbox (badness 1028) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Semi-supervised emo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Mario Giu-lianelli and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Automating lex-i-
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 34--34
+Underfull \hbox (badness 6825) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 cal sim-pli-fi-ca-tion in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Towards Wide-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 coverage Com-po-si-
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 34--34
+Underfull \hbox (badness 4205) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 tional Se-man-tics for
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 34--34
+Underfull \hbox (badness 1924) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 The-saurus driven le-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 34--34
+Underfull \hbox (badness 1406) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Using com-mon sense
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 34--34
+Underfull \hbox (badness 6510) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 to de-tect irony on
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 34--34
+Underfull \hbox (badness 4229) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Cynthia Van Hee, Els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Lefever and V^^Seronique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Pictograph-to-Text
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 34--34
+Underfull \hbox (badness 2103) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Trans-la-tion for Aug-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 34--34
+Underfull \hbox (badness 1102) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 mented and Al-ter-na-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 34--34
+Underfull \hbox (badness 3209) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 to Dis-cern Se-man-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 User pro-fil-ing with
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 34--34
+Underfull \hbox (badness 2343) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 OMG het was zooo
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 34--34
+Underfull \hbox (badness 5345) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 lekker! Can fine-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 grained sen-ti-ment
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 34--34
+Underfull \hbox (badness 1275) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 anal-y-sis ben-e-fit from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 coref-er-ence res-o-lu-
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 34--34
+Underfull \hbox (badness 3168) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Orph^^See De Clercq and
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 34--34
+Underfull \hbox (badness 7685) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Ger-man and Dutch
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 34--34
+Underfull \hbox (badness 2671) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 IDEA: Id-iom De-tec-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 34--34
+Underfull \hbox (badness 1348) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 tion { an Easy Ap-
  []
 
 
-Underfull \hbox (badness 7540) in paragraph at lines 34--34
+Underfull \hbox (badness 7540) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Methods For Au-to-
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 34--34
+Underfull \hbox (badness 1389) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Le-gal The-saurus and
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 34--34
+Underfull \hbox (badness 3471) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 dia and other User
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 34--34
+Underfull \hbox (badness 3029) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Ineke Schu-ur-man, Leen
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 34--34
+Underfull \hbox (badness 2426) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 wards vac-ci-na-tion in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Generating Top-i-cally
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 34--34
+Underfull \hbox (badness 5592) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Co-her-ent Text with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Re-cur-rent Neu-ral
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 34--34
+Underfull \hbox (badness 2591) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 qui-si-tion with The-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Classifying Def-i-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Multi-view Neu-ral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Net-work Ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Subhradeep Kayal,
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 34--34
+Underfull \hbox (badness 7944) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Sameer Chivukula and
  []
 
 
-Overfull \hbox (30.13403pt too wide) in paragraph at lines 34--34
+Overfull \hbox (30.13403pt too wide) in paragraph at lines 36--36
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Unsupervised dense
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 pa-tient rep-re-sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 ta-tions with in-ter-
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 34--34
+Underfull \hbox (badness 2495) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 pretable clas-si-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Fine-grained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 genre/register recog-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 34--34
+Underfull \hbox (badness 1048) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Hans Van Hal-teren and
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 34--34
+Underfull \hbox (badness 5985) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 for Neu-ral Net-work
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 34--34
+Underfull \hbox (badness 1194) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Rob van der Goot and
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 34--34
+Underfull \hbox (badness 1248) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 texts in small-corpus
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 34--34
+Underfull \hbox (badness 1584) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 SuperNMT: In-te-grat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 ing Su-per-sense and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Su-pertag Fea-tures
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 34--34
+Underfull \hbox (badness 1735) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 into Neu-ral Ma-chine
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 34--34
+Underfull \hbox (badness 2469) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 lion word cor-pus of
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 34--34
+Underfull \hbox (badness 1132) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 texts writ-ten in pri-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 34--34
+Underfull \hbox (badness 4036) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Agnes Tellings, Nelleke
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 34--34
+Underfull \hbox (badness 5359) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Oost-dijk, Iris Mon-ster,
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 34--34
+Underfull \hbox (badness 1168) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 elling of Dutch Past
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 34--34
+Underfull \hbox (badness 7944) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Nederlab: Progress
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Katrien Depuydt,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Maarten Van Gom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 pel, Hen-nie Brug-man,
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 34--34
+Underfull \hbox (badness 7397) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Towards mul-ti-lin-gual
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 34--34
+Underfull \hbox (badness 5008) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Chao Li, Carsten van
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 34--34
+Underfull \hbox (badness 4660) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Weelden, Luigi Lorato,
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 34--34
+Underfull \hbox (badness 1337) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Reducing per-plex-i-ties
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 34--34
+Underfull \hbox (badness 2065) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 a Bayesian skip-gram
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 34--34
-\OT1/cmr/m/n/10 Hamme and An-tal van
+Underfull \hbox (badness 3460) in paragraph at lines 36--36
+\OT1/cmr/m/n/10 hamme and An-tal van
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 34--34
+Underfull \hbox (badness 1253) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 doc-u-ment en-rich-ment
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 34--34
+Underfull \hbox (badness 1320) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Marieke van Erp, Jesse
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 34--34
+Underfull \hbox (badness 3260) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 De Does, Thomas van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Goethem and Ka-trien
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 34--34
+Underfull \hbox (badness 2027) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Authorship and Dis-
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 34--34
+Underfull \hbox (badness 6592) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Patterns of rhetor-i-
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 34--34
+Underfull \hbox (badness 1286) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 cal struc-ture in stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Rianne Conijn, Si-mon
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 34--34
+Underfull \hbox (badness 2435) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Post-editing a Novel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Comparing and In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 te-grat-ing Ma-chine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Learn-ing and Rule
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 34--34
+Underfull \hbox (badness 3291) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 What can we learn
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 34--34
+Underfull \hbox (badness 2503) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 from be-hav-ioral bio-
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 34--34
+Underfull \hbox (badness 6110) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Geo-temporal named
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 34--34
+Underfull \hbox (badness 2573) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 en-tity recog-ni-tion in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 mul-ti-lin-gual pic-ture
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 34--34
+Underfull \hbox (badness 5878) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 145 ways to in-sert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Vincent Van-degh-in-ste,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Lyan Ver-wimp, Joris
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Pele-mans and Patrick
  []
 
 
-Overfull \hbox (4.86612pt too wide) in alignment at lines 34--34
- [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Microportrait de-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 tion for iden-ti-fy-ing
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 34--34
+Underfull \hbox (badness 1259) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 stereo-types in Dutch
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 34--34
+Underfull \hbox (badness 4531) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 Nel, Sarah Gagen-stein,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 St^^Sephan Tulkens, Do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Elastic-substitution
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 34--34
+Underfull \hbox (badness 2503) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 de-cod-ing for Hi-er-ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 richer search and
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 34--34
+Underfull \hbox (badness 3590) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Relevant In-for-ma-tion
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 34--34
+Underfull \hbox (badness 1515) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 their use for gen-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/bx/n/10 Sequential La-belling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 belfy for Im-plicit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/bx/n/10 Trans-la-tion Eval-u-a-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 34--34
+Underfull \hbox (badness 1231) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10 Iris Hen-drickx, Maarten
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 34--34
+Underfull \hbox (badness 2073) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 van Gom-pel and An-tal
  []
 
+[8
 
-Overfull \hbox (4.86612pt too wide) in alignment at lines 34--34
- [] [] [] [] [] [] 
- []
-
-[7
-
-] [8] [9] [10] [11
+] [9] [10] [11] (./keynote.tex) [12
 
 ]
-Overfull \hbox (4.2306pt too wide) in paragraph at lines 49--49
+Overfull \hbox (4.2306pt too wide) in paragraph at lines 52--52
 []\OT1/cmr/m/n/10 Leen Sev-ens, Vin-cent Van-degh-in-ste, Lyan Ver-wimp, In-eke
  Schu-ur-man, Patrick Wambacq
  []
 
-[12] [13]) [14] <beneden3.pdf, id=73, 539.14136pt x 570.95052pt>
+[13] [14]) [15] <beneden3.pdf, id=109, 539.14136pt x 570.95052pt>
 File: beneden3.pdf Graphic file (type pdf)
 
 <use beneden3.pdf>
-Package pdftex.def Info: beneden3.pdf used on input line 52.
+Package pdftex.def Info: beneden3.pdf used on input line 64.
 (pdftex.def)             Requested size: 368.57964pt x 390.33209pt.
- <boven3.pdf, id=74, 493.12257pt x 558.59589pt>
+ <boven3.pdf, id=110, 493.12257pt x 558.59589pt>
 File: boven3.pdf Graphic file (type pdf)
 
 <use boven3.pdf>
-Package pdftex.def Info: boven3.pdf used on input line 53.
+Package pdftex.def Info: boven3.pdf used on input line 65.
 (pdftex.def)             Requested size: 325.215pt x 368.4102pt.
- [15
+ [16
 
  <./beneden3.pdf> <./boven3.pdf
 
 pdfTeX warning: pdflatex (file ./boven3.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
->] (./main.aux) ) 
+>] (./notes.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+[18])
+Underfull \hbox (badness 10000) in paragraph at lines 9--71
+
+ []
+
+File: front.pdf Graphic file (type pdf)
+<use front.pdf>
+Package pdftex.def Info: front.pdf used on input line 72.
+(pdftex.def)             Requested size: 1223.56827pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf>
+Package pdftex.def Info: front.pdf used on input line 72.
+(pdftex.def)             Requested size: 1223.56827pt x 874.26405pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 72.
+(pdftex.def)             Requested size: 597.50787pt x 853.8135pt.
+File: front.pdf Graphic file (type pdf)
+
+<use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 72.
+(pdftex.def)             Requested size: 606.12195pt x 866.09984pt.
+ [19]
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 72.
+(pdftex.def)             Requested size: 606.12195pt x 866.09984pt.
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 72.
+(pdftex.def)             Requested size: 606.12195pt x 866.09984pt.
+File: front.pdf Graphic file (type pdf)
+
+<use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 72.
+(pdftex.def)             Requested size: 606.12195pt x 866.09984pt.
+ [20] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25954 strings out of 494337
- 630088 string characters out of 6163011
- 907094 words of memory out of 5000000
- 28746 multiletter control sequences out of 15000+600000
+ 26687 strings out of 494337
+ 642067 string characters out of 6163011
+ 917338 words of memory out of 5000000
+ 29455 multiletter control sequences out of 15000+600000
  6760 words of font info for 25 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 79i,14n,96p,821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/c
-m-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
-fb>
-Output written on main.pdf (15 pages, 655792 bytes).
+ 79i,18n,96p,821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb>
+Output written on main.pdf (20 pages, 777456 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 212 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

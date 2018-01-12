@@ -14,7 +14,9 @@ end table=\end{longtable},col sep=semicolon,
      columns={Time,S1,S2,S3,S4,S5},every head row/.style={ 
              output empty row},
              every row no 0/.style={after row=\midrule},
-             every row no 5/.style={after row=\midrule},
+%             every row no 3/.style={after row=\noalign{\vskip 12pt plus 6pt}},
+%             every row no 4/.style={after row=\noalign{\vskip 12pt plus 6pt}},
+             every row no 5/.style={after row=*\midrule},
              every row no 6/.style={after row=\midrule},
              every row no 7/.style={after row=\midrule},
              every row no 8/.style={after row=\midrule},
@@ -25,7 +27,7 @@ end table=\end{longtable},col sep=semicolon,
              every row no 16/.style={after row=\midrule},
              every row no 21/.style={after row=\midrule},
              every row no 22/.style={after row=\midrule},
-    columns/Time/.style={string type,column type=p{\MyCellWidth}},
+    columns/Time/.style={string type,column type=r},
     columns/S1/.style={string type,column type=p{\MyCellWidth}},
     columns/S2/.style={string type,column type=p{\MyCellWidth}},
     columns/S3/.style={string type,column type=p{\MyCellWidth}},
@@ -37,6 +39,7 @@ end table=\end{longtable},col sep=semicolon,
 \newpage
 
 \subsection{Keynote}
+\input{keynote}
 
 \subsection{Oral presentations}
 
@@ -45,7 +48,7 @@ end table=\end{longtable},col sep=semicolon,
 {presentations}% database label
 {\name=Title,\points=Authors}% assignment
 {% Stuff to do at each iteration:
-\titautf{\name}{\points}
+    \vbox{\titautf{\name}{\points}}\par\vspace{0.5em}
 }
 
 \subsection{Posters}
@@ -55,6 +58,6 @@ end table=\end{longtable},col sep=semicolon,
 {posters}% database label
 {\name=Title,\points=Authors}% assignment
 {% Stuff to do at each iteration:
-\titautf{\name}{\points}
+    \vbox{\titautf{\name}{\points}}\par\vspace{0.5em}
 }
 

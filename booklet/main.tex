@@ -32,6 +32,15 @@
 \newcommand{\titaut}[2]{\begin{tabular}[t]{@{}p{\MyCellWidth}@{}}\textbf{#1} \\{}#2\end{tabular}}
 \newcommand{\titautf}[2]{\hspace*{-0.1cm}\textit{#1}\begin{adjustwidth}{2cm}{}#2\end{adjustwidth}\leavevmode}
 
+\usepackage{pgffor, ifthen}
+\newcommand{\notes}[3][\empty]{%
+    \noindent Notes\vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
 
 \usepackage{datatool}
 \DTLsetseparator{;}
@@ -39,8 +48,11 @@
 \DTLloaddb{posters}{posters.csv}
 \DTLloaddb{presentations}{presentations.csv}
 
+\usepackage{pdfpages}
+
 \begin{document}
 
+\includepdf[noautoscale, clip, trim=21.5cm 0cm 0.0cm 0.0cm, width=1.00\paperwidth]{front}
 											\input{titlepage}
 \newpage	\input{copyright}	\newpage	\input{preface}
 \newpage	\input{support}		\newpage	\input{sponsors}
@@ -53,4 +65,9 @@
 \includegraphics[width=.75\textwidth]{boven3}
 \end{landscape}
 
+\newpage
+
+\input{notes}
+
+\includepdf[clip, trim=0.0cm 0cm 21.5cm 0.0cm, width=1.00\paperwidth]{front}
 \end{document}
