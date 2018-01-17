@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  17 JAN 2018 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  17 JAN 2018 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,113 +1422,10 @@ Package pdftex.def Info: front.pdf, page1 used on input line 55.
 
 [1
 
- <./front.pdf>] [2] (./ads.tex
-<textkernel.pdf, id=45, 656.73659pt x 481.75282pt>
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf>
-Package pdftex.def Info: textkernel.pdf used on input line 2.
-(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
+ <./front.pdf>] [2] (./titlepage.tex) [3
 
-<use textkernel.pdf>
-Package pdftex.def Info: textkernel.pdf used on input line 2.
-(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
-
-<textkernel.pdf, id=48, page=1, 656.73659pt x 481.75282pt>
-File: textkernel.pdf Graphic file (type pdf)
-
-<use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
-
-<use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
- [3
-
- <./textkernel.pdf{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pd
-ftex.map}>]
-File: textkernel.pdf Graphic file (type pdf)
-
-<use textkernel.pdf>
-Package pdftex.def Info: textkernel.pdf used on input line 3.
-(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf>
-Package pdftex.def Info: textkernel.pdf used on input line 3.
-(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
-
-<use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
- <use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
-File: textkernel.pdf Graphic file (type pdf)
-
-<use textkernel.pdf, page 1>
-Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
-(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
- [4]
-
-pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
-1.6>, but at most version <1.5> allowed
-<ivdnl.pdf, id=95, 597.55246pt x 845.07718pt>
-File: ivdnl.pdf Graphic file (type pdf)
- <use ivdnl.pdf>
-Package pdftex.def Info: ivdnl.pdf used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
-1.6>, but at most version <1.5> allowed
-File: ivdnl.pdf Graphic file (type pdf)
-<use ivdnl.pdf>
-Package pdftex.def Info: ivdnl.pdf used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
-1.6>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
-1.6>, but at most version <1.5> allowed
-<ivdnl.pdf, id=98, page=1, 597.55246pt x 845.07718pt>
-File: ivdnl.pdf Graphic file (type pdf)
- <use ivdnl.pdf, page 1>
-Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: ivdnl.pdf Graphic file (type pdf)
-
-<use ivdnl.pdf, page 1>
-Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: ivdnl.pdf Graphic file (type pdf)
- <use ivdnl.pdf, page 1>
-Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: ivdnl.pdf Graphic file (type pdf)
- <use ivdnl.pdf, page 1>
-Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-[5 <./ivdnl.pdf>]) (./titlepage.tex) [6] (./copyright.tex
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./copy
+right.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -1543,68 +1440,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-) [7] (./preface.tex) [8] (./support.tex
+) [4] (./preface.tex) [5] (./support.tex
 PGFPlots: reading {clins.csv}
-) [9] (./sponsors.tex
-<int-logo.png, id=169, 293.898pt x 155.6214pt>
+) [6] (./sponsors.tex
+<int-logo.png, id=64, 293.898pt x 155.6214pt>
 File: int-logo.png Graphic file (type png)
  <use int-logo.png>
 Package pdftex.def Info: int-logo.png used on input line 5.
 (pdftex.def)             Requested size: 325.215pt x 172.217pt.
 
-<LI_logo_RGB_tag.png, id=171, 506.89375pt x 106.3975pt>
+<LI_logo_RGB_tag.png, id=66, 506.89375pt x 106.3975pt>
 File: LI_logo_RGB_tag.png Graphic file (type png)
 
 <use LI_logo_RGB_tag.png>
 Package pdftex.def Info: LI_logo_RGB_tag.png used on input line 10.
 (pdftex.def)             Requested size: 195.12767pt x 40.95747pt.
 
-<textkernel-tagline.png, id=172, 747.79375pt x 200.75pt>
+<textkernel-tagline.png, id=67, 747.79375pt x 200.75pt>
 File: textkernel-tagline.png Graphic file (type png)
 
 <use textkernel-tagline.png>
 Package pdftex.def Info: textkernel-tagline.png used on input line 11.
 (pdftex.def)             Requested size: 195.12767pt x 52.38368pt.
 
-<logo_beeld_geluid.png, id=173, 722.7pt x 206.4513pt>
+<logo_beeld_geluid.png, id=68, 722.7pt x 206.4513pt>
 File: logo_beeld_geluid.png Graphic file (type png)
 
 <use logo_beeld_geluid.png>
 Package pdftex.def Info: logo_beeld_geluid.png used on input line 16.
 (pdftex.def)             Requested size: 130.08731pt x 37.15962pt.
-
-<logo_NOTaS.png, id=174, 577.40718pt x 207.77625pt>
+ <logo_NOTaS.png, id=69, 577.40718pt x 207.77625pt>
 File: logo_NOTaS.png Graphic file (type png)
- <use logo_NOTaS.png>
+
+<use logo_NOTaS.png>
 Package pdftex.def Info: logo_NOTaS.png used on input line 17.
 (pdftex.def)             Requested size: 130.08731pt x 46.81104pt.
-
-<logo_clariah.png, id=175, 301.125pt x 83.31125pt>
+ <logo_clariah.png, id=70, 301.125pt x 83.31125pt>
 File: logo_clariah.png Graphic file (type png)
- <use logo_clariah.png>
+
+<use logo_clariah.png>
 Package pdftex.def Info: logo_clariah.png used on input line 18.
 (pdftex.def)             Requested size: 130.08731pt x 35.9922pt.
-
-<siks-logo.jpeg, id=176, 192.72pt x 76.285pt>
+ <siks-logo.jpeg, id=71, 192.72pt x 76.285pt>
 File: siks-logo.jpeg Graphic file (type jpg)
- <use siks-logo.jpeg>
+
+<use siks-logo.jpeg>
 Package pdftex.def Info: siks-logo.jpeg used on input line 19.
 (pdftex.def)             Requested size: 130.08731pt x 51.49246pt.
-
-<textgainlogo.jpg, id=177, 150.5625pt x 44.41594pt>
+ <textgainlogo.jpg, id=72, 150.5625pt x 44.41594pt>
 File: textgainlogo.jpg Graphic file (type jpg)
- <use textgainlogo.jpg>
+
+<use textgainlogo.jpg>
 Package pdftex.def Info: textgainlogo.jpg used on input line 20.
 (pdftex.def)             Requested size: 130.08731pt x 38.37926pt.
-
-<logoAG_XL.jpg, id=178, 1634.105pt x 489.83pt>
+ <logoAG_XL.jpg, id=73, 1634.105pt x 489.83pt>
 File: logoAG_XL.jpg Graphic file (type jpg)
- <use logoAG_XL.jpg>
+
+<use logoAG_XL.jpg>
 Package pdftex.def Info: logoAG_XL.jpg used on input line 21.
 (pdftex.def)             Requested size: 130.08731pt x 38.99286pt.
-) [10 <./int-logo.png> <./LI_logo_RGB_tag.png> <./textkernel-tagline.png> <./lo
-go_beeld_geluid.png> <./logo_NOTaS.png> <./logo_clariah.png> <./siks-logo.jpeg>
- <./textgainlogo.jpg> <./logoAG_XL.jpg>] [11] (./programme.tex [12]
+) [7 <./int-logo.png> <./LI_logo_RGB_tag.png> <./textkernel-tagline.png> <./log
+o_beeld_geluid.png> <./logo_NOTaS.png> <./logo_clariah.png> <./siks-logo.jpeg> 
+<./textgainlogo.jpg> <./logoAG_XL.jpg>] [8] (./programme.tex [9]
 PGFPlots: reading {schedule.csv}
 
 Overfull \hbox (5.50917pt too wide) in paragraph at lines 36--36
@@ -2146,9 +2043,9 @@ Underfull \hbox (badness 2073) in paragraph at lines 36--36
 \OT1/cmr/m/n/10 van Gom-pel and An-tal
  []
 
-[13
+[10
 
-] [14] [15] [16] (./keynote.tex) [17
+] [11] [12] [13] (./keynote.tex) [14
 
 ]
 Overfull \hbox (4.2306pt too wide) in paragraph at lines 52--52
@@ -2156,7 +2053,108 @@ Overfull \hbox (4.2306pt too wide) in paragraph at lines 52--52
  Schu-ur-man, Patrick Wambacq
  []
 
-[18] [19]) [20] <beneden3.pdf, id=221, 539.14136pt x 570.95052pt>
+[15] [16]) [17] (./ads.tex <textkernel.pdf, id=115, 656.73659pt x 481.75282pt>
+File: textkernel.pdf Graphic file (type pdf)
+
+<use textkernel.pdf>
+Package pdftex.def Info: textkernel.pdf used on input line 2.
+(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf>
+Package pdftex.def Info: textkernel.pdf used on input line 2.
+(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
+
+<textkernel.pdf, id=118, page=1, 656.73659pt x 481.75282pt>
+File: textkernel.pdf Graphic file (type pdf)
+
+<use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+
+<use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+ [18 <./textkernel.pdf>]
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf>
+Package pdftex.def Info: textkernel.pdf used on input line 3.
+(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf>
+Package pdftex.def Info: textkernel.pdf used on input line 3.
+(pdftex.def)             Requested size: 656.73499pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+
+<use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+ <use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+File: textkernel.pdf Graphic file (type pdf)
+
+<use textkernel.pdf, page 1>
+Package pdftex.def Info: textkernel.pdf, page1 used on input line 3.
+(pdftex.def)             Requested size: 301.07643pt x 481.75163pt.
+ [19]
+
+pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
+1.6>, but at most version <1.5> allowed
+<ivdnl.pdf, id=166, 597.55246pt x 845.07718pt>
+File: ivdnl.pdf Graphic file (type pdf)
+ <use ivdnl.pdf>
+Package pdftex.def Info: ivdnl.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
+1.6>, but at most version <1.5> allowed
+File: ivdnl.pdf Graphic file (type pdf)
+<use ivdnl.pdf>
+Package pdftex.def Info: ivdnl.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
+1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./ivdnl.pdf): PDF inclusion: found PDF version <
+1.6>, but at most version <1.5> allowed
+<ivdnl.pdf, id=169, page=1, 597.55246pt x 845.07718pt>
+File: ivdnl.pdf Graphic file (type pdf)
+ <use ivdnl.pdf, page 1>
+Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ivdnl.pdf Graphic file (type pdf)
+
+<use ivdnl.pdf, page 1>
+Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ivdnl.pdf Graphic file (type pdf)
+ <use ivdnl.pdf, page 1>
+Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ivdnl.pdf Graphic file (type pdf)
+ <use ivdnl.pdf, page 1>
+Package pdftex.def Info: ivdnl.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+[20 <./ivdnl.pdf>]) <beneden3.pdf, id=221, 539.14136pt x 570.95052pt>
 File: beneden3.pdf Graphic file (type pdf)
 
 <use beneden3.pdf>
@@ -2224,10 +2222,10 @@ Package pdftex.def Info: front.pdf, page1 used on input line 75.
 (pdftex.def)             Requested size: 606.12195pt x 866.09984pt.
  [25] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 26705 strings out of 494337
- 642358 string characters out of 6163011
- 917454 words of memory out of 5000000
- 29468 multiletter control sequences out of 15000+600000
+ 26706 strings out of 494337
+ 642376 string characters out of 6163011
+ 917271 words of memory out of 5000000
+ 29469 multiletter control sequences out of 15000+600000
  6760 words of font info for 25 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  79i,18n,96p,821b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2241,7 +2239,7 @@ cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 ti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm100
 0.pfb>
-Output written on main.pdf (25 pages, 966646 bytes).
+Output written on main.pdf (25 pages, 968043 bytes).
 PDF statistics:
  323 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams
